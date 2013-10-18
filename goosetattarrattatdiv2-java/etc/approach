@@ -1,0 +1,5 @@
+Algorithm:
+1. Scan each character c in string S,
+2. Measure the frequency of the character.
+3. Subtract the maximum frequency from the length of S.
+4. The result of above subtraction is the result.
