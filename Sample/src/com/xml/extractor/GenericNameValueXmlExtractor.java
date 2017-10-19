@@ -50,7 +50,7 @@ public class GenericNameValueXmlExtractor
 		XPathExpression expression = xpath.compile("//header[name='UserId']/value/text()");
 		XPathExpression requestId = xpath.compile("//requestId/text()");
 		XPathExpression addressingInfoType = xpath.compile("//parameter[name='AddressingInformation']/part[name='Type']/value/text()");
-		XPathExpression addresingInfoID = xpath.compile("//parameter[name='AddressingInformation']/part[name='Type']/value/text()");
+		XPathExpression addressingInfoID = xpath.compile("//parameter[name='AddressingInformation']/part[name='Type']/value/text()");
 		XPathExpression grantDateXPath = xpath.compile("//parameter[name='RequestedTransaction']/part[name='GrantDate']/value/text()");
 		XPathExpression requestTransaction = xpath.compile("//parameter[name='RequestedTransaction']/name/text()");
 		XPathExpression transId = xpath.compile("//parameter[name='RequestedTransaction']/part[name='TransactionId']/value/text()");
